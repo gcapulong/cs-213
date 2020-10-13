@@ -1,0 +1,1 @@
+WARN  18:50:08,998 [Smack Listener Processor (0)] (SubscriptionHandler.java:128) received error presence package from saros_1741341419@conference.saros-con.imp.fu-berlin.de/gcapulong@saros-con.imp.fu-berlin.de/Saros, condition: item-not-found, message: Conference room does not exist

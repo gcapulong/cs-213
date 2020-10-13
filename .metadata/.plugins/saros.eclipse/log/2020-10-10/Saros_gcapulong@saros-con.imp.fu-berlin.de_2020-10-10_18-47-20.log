@@ -1,0 +1,18 @@
+INFO  18:46:45,566 [saros-DispatchContext] (NegotiationPacketListener.java:227) Starting Saros 16.0.1 running:
+  Java Version: 11.0.1
+  Java Vendor: Oracle Corporation
+  Eclipse Runtime Version: 3.17.0.v20191122-2104
+  Operating System: Mac OS X (10.15.6)
+  Hardware Architecture: x86_64
+INFO  18:46:45,698 [saros-DispatchContext] (NegotiationPacketListener.java:227) initializing context...
+INFO  18:46:47,020 [saros-DispatchContext] (NegotiationPacketListener.java:227) initializing preference default values
+INFO  18:46:47,169 [saros-DispatchContext] (NegotiationPacketListener.java:227) successfully initialized context
+INFO  18:47:20,050 [saros-DispatchContext] (NegotiationPacketListener.java:227) received invitation from parthvora@saros-con.imp.fu-berlin.de/Saros [negotiation id: -5486255428347812907, session id: 1741341419, version: 16.0.1]
+INFO  18:47:24,797 [ModalContext] (SarosSessionManager.java:288) joined uninitialized Saros session
+INFO  18:47:24,812 [ModalContext] (DataTransferManager.java:269) establishing connection to parthvora@saros-con.imp.fu-berlin.de/Saros from gcapulong@saros-con.imp.fu-berlin.de/Saros using stream service XMPP-Socks5-Stream-Service
+INFO  18:47:44,291 [saros-DispatchContext] (NegotiationPacketListener.java:310) received project negotiation from parthvora@saros-con.imp.fu-berlin.de/Saros with negotiation id: 8950323666856903616
+INFO  18:50:08,811 [saros-CancelAddProjectWizard] (SarosSessionManager.java:332) session stopped
+WARN  18:50:08,998 [Smack Listener Processor (0)] (SubscriptionHandler.java:128) received error presence package from saros_1741341419@conference.saros-con.imp.fu-berlin.de/gcapulong@saros-con.imp.fu-berlin.de/Saros, condition: item-not-found, message: Conference room does not exist
+INFO  18:50:32,869 [saros-shutdown] (ContainerContext.java:205) disposing context...
+INFO  18:50:32,870 [saros-shutdown] (ContainerContext.java:209) successfully disposed context
+INFO  18:50:33,198 [Framework stop] (Saros.java:137) Stopping Saros 16.0.1
